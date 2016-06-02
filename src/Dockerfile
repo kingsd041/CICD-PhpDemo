@@ -1,4 +1,4 @@
-FROM registry.rancher.com/python-redis-flask:v1.0
+FROM kingsd/python-flask:v1.0
 ADD . /code
 WORKDIR /code
 EXPOSE 5000
