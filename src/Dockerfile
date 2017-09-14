@@ -1,4 +1,4 @@
-FROM kingsd/python-flask:v1.0
+FROM kingsd/python-flask:v1.1
 ADD . /code
 WORKDIR /code
 EXPOSE 5000
